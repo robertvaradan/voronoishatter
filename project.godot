@@ -8,11 +8,15 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="voronoishatter"
 run/main_scene="uid://fvl7lip8as7u"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://cbqj0ybncmmf4"
 
 [debug]
